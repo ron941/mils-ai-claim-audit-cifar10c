@@ -1,0 +1,16 @@
+condition,corruption,severity,model_a,model_b,both_wrong,either_wrong,total,overlap_all,overlap_error_union
+gaussian_noise_s1,gaussian_noise,1,standard,robust_augmix_wrn,661,2424,10000,0.0661,0.2726897689768977
+gaussian_noise_s3,gaussian_noise,3,standard,robust_augmix_wrn,1855,6270,10000,0.1855,0.2958532695374801
+gaussian_noise_s5,gaussian_noise,5,standard,robust_augmix_wrn,2680,7429,10000,0.268,0.3607484183604792
+motion_blur_s1,motion_blur,1,standard,robust_augmix_wrn,345,1181,10000,0.0345,0.292125317527519
+motion_blur_s3,motion_blur,3,standard,robust_augmix_wrn,660,2755,10000,0.066,0.2395644283121597
+motion_blur_s5,motion_blur,5,standard,robust_augmix_wrn,846,3688,10000,0.0846,0.22939262472885033
+fog_s1,fog,1,standard,robust_augmix_wrn,268,772,10000,0.0268,0.3471502590673575
+fog_s3,fog,3,standard,robust_augmix_wrn,370,1033,10000,0.037,0.35818005808325265
+fog_s5,fog,5,standard,robust_augmix_wrn,1296,3054,10000,0.1296,0.4243614931237721
+contrast_s1,contrast,1,standard,robust_augmix_wrn,278,794,10000,0.0278,0.3501259445843829
+contrast_s3,contrast,3,standard,robust_augmix_wrn,430,1317,10000,0.043,0.32649962034927865
+contrast_s5,contrast,5,standard,robust_augmix_wrn,1736,5030,10000,0.1736,0.34512922465208745
+jpeg_compression_s1,jpeg_compression,1,standard,robust_augmix_wrn,552,1679,10000,0.0552,0.3287671232876712
+jpeg_compression_s3,jpeg_compression,3,standard,robust_augmix_wrn,835,2584,10000,0.0835,0.3231424148606811
+jpeg_compression_s5,jpeg_compression,5,standard,robust_augmix_wrn,1078,3420,10000,0.1078,0.3152046783625731

@@ -1,6 +1,6 @@
 # CIFAR-10-C Robustness Audit
 
-This repository contains a MILS AI-Claim Audit project for robustness under CIFAR-10-C distribution shifts. It compares a standard RobustBench model with a robust AugMix-WRN model, audits five AI-generated claims, and provides code to regenerate the CSV results, figures, and failure cases used in the report.
+This repository contains a MILS AI-Claim Audit project for robustness under CIFAR-10-C distribution shifts. It compares a standard RobustBench model with a robust AugMix-WRN model, audits five AI-generated claims, and links each conclusion to CSV results, figures, or failure cases.
 
 Repository: https://github.com/ron941/mils-ai-claim-audit-cifar10c
 
@@ -26,7 +26,7 @@ Repository: https://github.com/ron941/mils-ai-claim-audit-cifar10c
 
 ## Repository Notes
 
-The repository is meant to keep the report and the necessary code for rerunning the audit. Generated experiment artifacts are excluded by `.gitignore`, including downloaded datasets, model weights, CSV outputs, figures, failure-case images, report image assets, and per-sample prediction caches.
+The repository keeps source code, configs, the final report, compact CSV outputs, figures, representative failure-case images, and report assets so the evidence is easy to inspect on GitHub. Large downloaded datasets, RobustBench model weights, and per-sample prediction caches are excluded by `.gitignore`.
 
 For course upload, use the compact `submission_minimal/` folder generated in this workspace. It contains the final report and necessary code only, following the instruction not to upload code execution artifacts or datasets.
 
@@ -35,8 +35,10 @@ For course upload, use the compact `submission_minimal/` folder generated in thi
 ```text
 configs/           Experiment configuration
 src/               Data loading, model loading, evaluation, plotting, and audit code
-notebooks/         Notebook view of the analysis workflow
+notebooks/         Notebook view of the generated evidence
+outputs/           Compact CSV outputs, figures, and representative failure cases
 report/            Final report document
+report_assets/     Figure montages inserted into the report
 ```
 
 ## Setup

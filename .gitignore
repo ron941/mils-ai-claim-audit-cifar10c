@@ -12,9 +12,8 @@ venv/
 data/
 models/
 
-# Generated experiment artifacts
-outputs/
-report_assets/
+# Heavy reproducibility cache
+outputs/predictions/
 *.zip
 
 # Local report edit backups
