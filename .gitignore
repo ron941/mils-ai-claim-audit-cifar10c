@@ -12,8 +12,10 @@ venv/
 data/
 models/
 
-# Heavy reproducibility cache; CSV/figures/failure images are kept.
-outputs/predictions/
+# Generated experiment artifacts
+outputs/
+report_assets/
+*.zip
 
 # Local report edit backups
 report/*.before_*.docx
